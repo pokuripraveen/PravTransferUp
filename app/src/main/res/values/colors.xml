@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bg_bubble_self">#FF0000</color>
+    <color name="bg_bubble_grayf">#00FF00</color>
+    <color name="list_divider">#FF4081</color>
+    <color name="colorPrimaryBackground">@android:color/white</color>
+
+    <!-- login page -->
+    <color name="login_text_color_hint">#aba2a2</color>
+    <color name="login_background_active">@android:color/white</color>
+    <color name="login_background_inactive">@android:color/holo_green_dark</color>
+    <color name="transferup_theme_action_secondary_pressed">#d9ab4d</color>
+    <color name="transferup_theme_action_secondary">#C88700</color>
+    <color name="transferup_theme_action_disabled">#4d3751</color>
+    <color name="login_forgot_password">@color/transferup_theme_action_secondary</color>
+    <color name="login_error_message">#e7e685</color>
+    <color name="payer_welcome_screen_free_browsing">@color/transferup_theme_action_primary</color>
+    <color name="hawk_signup_for_free">@color/transferup_theme_action_secondary</color>
+
+    <color name="transferup_theme_action_primary">#00007f</color>
+    <color name="transferup_theme_action_primary_pressed">#fccf63</color>
+    <color name="transferup_theme_action_secondary_darker">#543916</color>
+    <color name="transferup_theme_gray_light">#5a5e65</color>
+    <color name="transferup_theme_gray_dark">#4c5159</color>
+    <color name="transferup_theme_background_default">#38083B</color>
+    <color name="transferup_theme_background_transparent_default">#8038083B</color>
+    <color name="transferup_theme_background_dark">#4F1556</color>
+    <color name="transferup_theme_light_divider">#664166</color>
+    <color name="hawk_theme_background_default">#38083B</color>
+
+    <color name="textCorlorWhite">#FFFFFF</color>
+    <color name="textCorlorFocused">#6495ED</color>
+    <color name="edittextBorderColor">#EE82EE</color>
+    <color name="btnCorlorstart">#33AFFF</color>
+    <color name="btnCorlormid">#33DAFF</color>
+    <color name="textCorlorBlue">#0000FF</color>
+
+    <color name="tabTextColor">#D7E9FF</color>
+
+    <color name="dark">#FF222222</color>
+    <color name="light">#FFEEEEEE</color>
+
+    <!-- Chat message -->
+    <color name="colorSelfMessage">#deeef7</color>
+    <color name="colorDateText">#cecece</color>
+    <color name="colorSeparator">#d7d7d7</color>
+    <color name="colorNotificationMessage">#20cf8f</color>
+    <color name="colorContactMessage">#f1f1f1f1</color>
+    <color name="colorTextNormal">#333333</color>
+    <color name="colorTextGrey">#757575</color>
+</resources>

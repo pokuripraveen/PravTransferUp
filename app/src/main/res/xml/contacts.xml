@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContactsSource
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ContactsDataKind
+        android:mimeType="vnd.android.cursor.item/vnd.com.transferup.profile"
+        android:icon="@mipmap/app_icon"
+        android:smallIcon="@mipmap/app_icon" />
+</ContactsSource>

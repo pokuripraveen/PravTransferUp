@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="3dp">
+        <selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <item
+                android:state_focused="true"
+                android:state_pressed="true">
+                <shape>
+
+                    <stroke
+                        android:width="2.3dp"
+                        android:color="@color/textCorlorFocused"/>
+                    <corners
+                        android:radius="7dp"/>
+                </shape>
+            </item>
+
+            <item
+                android:state_focused="false"
+                android:state_pressed="true">
+                <shape>
+                    <stroke
+                        android:width="2.3dp"
+                        android:color="@color/edittextBorderColor"/>
+                    <corners
+                        android:radius="7dp"/>
+                </shape>
+            </item>
+
+            <item
+                android:state_focused="true"
+                android:state_pressed="false">
+                <shape>
+                    <stroke
+                        android:width="2.3dp"
+                        android:color="@color/textCorlorFocused"/>
+                    <corners
+                        android:radius="7dp"/>
+                </shape>
+            </item>
+
+            <item
+                android:state_focused="false"
+                android:state_pressed="false">
+                <shape>
+                    <gradient
+                        android:angle="270"
+                        android:centerColor="#FFFFFF"
+                        android:endColor="#FFFFFF"
+                        android:startColor="#F2F2F2"
+                        />
+                    <stroke
+                        android:width="0.7dp"
+                        android:color="@color/edittextBorderColor"/>
+                    <corners
+                        android:radius="7dp"/>
+                </shape>
+            </item>
+
+            <item android:state_enabled="true">
+                <shape>
+                    <padding
+                        android:bottom="14dp"
+                        android:left="14dp"
+                        android:right="14dp"
+                        android:top="14dp"
+                        />
+                </shape>
+            </item>
+
+        </selector>
+    </item>
+</layer-list>

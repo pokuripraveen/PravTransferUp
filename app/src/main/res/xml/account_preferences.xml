@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="General Settings" />
+
+    <PreferenceScreen
+        android:key="account_settings"
+        android:title="Account Settings"
+        android:summary="Sync Contacts, email">
+        <intent
+            android:action="com.kar.transferup.activities.Preferences.ACCOUNT_SETUP"
+            android:targetPackage="com.kar.transferup"
+            android:targetClass="com.kar.transferup.activities.PreferActivity" />
+    </PreferenceScreen>
+</PreferenceScreen>

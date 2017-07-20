@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <item
+                android:state_focused="true"
+                android:state_pressed="true">
+                <shape>
+                    <solid android:color="@color/textCorlorFocused"/>
+                    <stroke
+                        android:width="2.3dp"
+                        android:color="@color/textCorlorFocused"/>
+                    <corners
+                        android:radius="7dp"/>
+                </shape>
+            </item>
+
+            <item
+                android:state_focused="false"
+                android:state_pressed="true">
+                <shape>
+                    <solid android:color="@color/textCorlorFocused"/>
+                    <stroke
+                        android:width="2.3dp"
+                        android:color="@color/edittextBorderColor"/>
+                    <corners
+                        android:radius="7dp"/>
+                </shape>
+            </item>
+
+            <item
+                android:state_focused="true"
+                android:state_pressed="false">
+                <shape>
+                    <solid android:color="@color/btnCorlorstart"/>
+                    <stroke
+                        android:width="2.3dp"
+                        android:color="@color/textCorlorFocused"/>
+                    <corners
+                        android:radius="7dp"/>
+                </shape>
+            </item>
+
+            <item
+                android:state_focused="false"
+                android:state_pressed="false">
+                <shape>
+                    <gradient
+                        android:angle="270"
+                        android:centerColor="@color/btnCorlorstart"
+                        android:endColor="@color/btnCorlormid"
+                        android:startColor="@color/btnCorlorstart"
+                        />
+                    <stroke
+                        android:width="0.7dp"
+                        android:color="@color/edittextBorderColor"/>
+                    <corners
+                        android:radius="7dp"/>
+                </shape>
+            </item>
+
+            <item android:state_enabled="true">
+                <shape>
+                    <padding
+                        android:bottom="10dp"
+                        android:left="10dp"
+                        android:right="10dp"
+                        android:top="10dp"
+                        />
+                </shape>
+            </item>
+
+        </selector>
+    </item>
+</layer-list>

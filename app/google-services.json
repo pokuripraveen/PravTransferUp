@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "746015046045",
+    "firebase_url": "https://transferup-20806.firebaseio.com",
+    "project_id": "transferup-20806",
+    "storage_bucket": "transferup-20806.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746015046045:android:9324c29714d8b4cc",
+        "android_client_info": {
+          "package_name": "com.kar.transferup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746015046045-docmdidaogqk5smcs7ir5ug4tqgj8mv7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kar.transferup",
+            "certificate_hash": "FED9CF291720A1E2C115ACE8C9E070DDF17F9D51"
+          }
+        },
+        {
+          "client_id": "746015046045-9an3j13a1o1mqmanr6bt5ojl2c8vrkcv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzqn1m1vVlWUCKwTpkyouSjYowSSDtXvM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "746015046045-9an3j13a1o1mqmanr6bt5ojl2c8vrkcv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,11 @@
+<resources>
+    <string name="ACCOUNT_NAME">TransferUp</string>
+    <string name="ACCOUNT_TYPE">com.transferup</string>
+    <string name="ACCOUNT_TOKEN">212915</string>
+
+    <string-array name="country_codes_array">
+        <item>+91</item>
+        <item>+64</item>
+        <item>+1</item>
+    </string-array>
+</resources>
